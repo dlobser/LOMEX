@@ -1,0 +1,153 @@
+fileFormatVersion: 2
+guid: e88e049a66d3841bf96662d5fdabf800
+timeCreated: 1477494490
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: asphalt_LOMEX_BASE_10k_polys_LOMEX_detail_Mercer_30ft_56k_GEO
+    100002: LOMEX_BASE_10k_polys_LOMEX_detail_Mercer_30ft_56k_GEO_archVerticals3
+    100004: LOMEX_BASE_10k_polys_LOMEX_detail_Mercer_30ft_56k_GEO_barrier_lampNiches1
+    100006: LOMEX_BASE_10k_polys_LOMEX_detail_Mercer_30ft_56k_GEO_barrier_outside
+    100008: LOMEX_BASE_10k_polys_LOMEX_detail_Mercer_30ft_56k_GEO_beams_long
+    100010: LOMEX_BASE_10k_polys_LOMEX_detail_Mercer_30ft_56k_GEO_ColumnBase_all_columnBaseInside3
+    100012: LOMEX_BASE_10k_polys_LOMEX_detail_Mercer_30ft_56k_GEO_ColumnBase_all_columnBaseOutside6
+    100014: LOMEX_BASE_10k_polys_LOMEX_detail_Mercer_30ft_56k_GEO_columnBaseOutside5_ColumnBase_all
+    100016: LOMEX_BASE_10k_polys_LOMEX_detail_Mercer_30ft_56k_GEO_columnInside3_Columns_Center
+    100018: LOMEX_BASE_10k_polys_LOMEX_detail_Mercer_30ft_56k_GEO_columnOutside6_Columns_Side
+    100020: LOMEX_BASE_10k_polys_LOMEX_detail_Mercer_30ft_56k_GEO_Columns_Side_columnOutside5
+    100022: LOMEX_BASE_10k_polys_LOMEX_detail_Mercer_30ft_56k_GEO_columnTops1
+    100024: LOMEX_BASE_10k_polys_LOMEX_detail_Mercer_30ft_56k_GEO_crossBeams
+    100026: LOMEX_BASE_10k_polys_LOMEX_detail_Mercer_30ft_56k_GEO_crossBeams_arches3_crossBeams_arches
+    100028: LOMEX_BASE_10k_polys_LOMEX_detail_Mercer_30ft_56k_GEO_crossBeams_arches_crossBeams_arches12
+    100030: LOMEX_BASE_10k_polys_LOMEX_detail_Mercer_30ft_56k_GEO_lamps
+    100032: //RootNode
+    400000: asphalt_LOMEX_BASE_10k_polys_LOMEX_detail_Mercer_30ft_56k_GEO
+    400002: LOMEX_BASE_10k_polys_LOMEX_detail_Mercer_30ft_56k_GEO_archVerticals3
+    400004: LOMEX_BASE_10k_polys_LOMEX_detail_Mercer_30ft_56k_GEO_barrier_lampNiches1
+    400006: LOMEX_BASE_10k_polys_LOMEX_detail_Mercer_30ft_56k_GEO_barrier_outside
+    400008: LOMEX_BASE_10k_polys_LOMEX_detail_Mercer_30ft_56k_GEO_beams_long
+    400010: LOMEX_BASE_10k_polys_LOMEX_detail_Mercer_30ft_56k_GEO_ColumnBase_all_columnBaseInside3
+    400012: LOMEX_BASE_10k_polys_LOMEX_detail_Mercer_30ft_56k_GEO_ColumnBase_all_columnBaseOutside6
+    400014: LOMEX_BASE_10k_polys_LOMEX_detail_Mercer_30ft_56k_GEO_columnBaseOutside5_ColumnBase_all
+    400016: LOMEX_BASE_10k_polys_LOMEX_detail_Mercer_30ft_56k_GEO_columnInside3_Columns_Center
+    400018: LOMEX_BASE_10k_polys_LOMEX_detail_Mercer_30ft_56k_GEO_columnOutside6_Columns_Side
+    400020: LOMEX_BASE_10k_polys_LOMEX_detail_Mercer_30ft_56k_GEO_Columns_Side_columnOutside5
+    400022: LOMEX_BASE_10k_polys_LOMEX_detail_Mercer_30ft_56k_GEO_columnTops1
+    400024: LOMEX_BASE_10k_polys_LOMEX_detail_Mercer_30ft_56k_GEO_crossBeams
+    400026: LOMEX_BASE_10k_polys_LOMEX_detail_Mercer_30ft_56k_GEO_crossBeams_arches3_crossBeams_arches
+    400028: LOMEX_BASE_10k_polys_LOMEX_detail_Mercer_30ft_56k_GEO_crossBeams_arches_crossBeams_arches12
+    400030: LOMEX_BASE_10k_polys_LOMEX_detail_Mercer_30ft_56k_GEO_lamps
+    400032: //RootNode
+    2300000: asphalt_LOMEX_BASE_10k_polys_LOMEX_detail_Mercer_30ft_56k_GEO
+    2300002: LOMEX_BASE_10k_polys_LOMEX_detail_Mercer_30ft_56k_GEO_archVerticals3
+    2300004: LOMEX_BASE_10k_polys_LOMEX_detail_Mercer_30ft_56k_GEO_barrier_lampNiches1
+    2300006: LOMEX_BASE_10k_polys_LOMEX_detail_Mercer_30ft_56k_GEO_barrier_outside
+    2300008: LOMEX_BASE_10k_polys_LOMEX_detail_Mercer_30ft_56k_GEO_beams_long
+    2300010: LOMEX_BASE_10k_polys_LOMEX_detail_Mercer_30ft_56k_GEO_ColumnBase_all_columnBaseInside3
+    2300012: LOMEX_BASE_10k_polys_LOMEX_detail_Mercer_30ft_56k_GEO_ColumnBase_all_columnBaseOutside6
+    2300014: LOMEX_BASE_10k_polys_LOMEX_detail_Mercer_30ft_56k_GEO_columnBaseOutside5_ColumnBase_all
+    2300016: LOMEX_BASE_10k_polys_LOMEX_detail_Mercer_30ft_56k_GEO_columnInside3_Columns_Center
+    2300018: LOMEX_BASE_10k_polys_LOMEX_detail_Mercer_30ft_56k_GEO_columnOutside6_Columns_Side
+    2300020: LOMEX_BASE_10k_polys_LOMEX_detail_Mercer_30ft_56k_GEO_Columns_Side_columnOutside5
+    2300022: LOMEX_BASE_10k_polys_LOMEX_detail_Mercer_30ft_56k_GEO_columnTops1
+    2300024: LOMEX_BASE_10k_polys_LOMEX_detail_Mercer_30ft_56k_GEO_crossBeams
+    2300026: LOMEX_BASE_10k_polys_LOMEX_detail_Mercer_30ft_56k_GEO_crossBeams_arches3_crossBeams_arches
+    2300028: LOMEX_BASE_10k_polys_LOMEX_detail_Mercer_30ft_56k_GEO_crossBeams_arches_crossBeams_arches12
+    2300030: LOMEX_BASE_10k_polys_LOMEX_detail_Mercer_30ft_56k_GEO_lamps
+    3300000: asphalt_LOMEX_BASE_10k_polys_LOMEX_detail_Mercer_30ft_56k_GEO
+    3300002: LOMEX_BASE_10k_polys_LOMEX_detail_Mercer_30ft_56k_GEO_archVerticals3
+    3300004: LOMEX_BASE_10k_polys_LOMEX_detail_Mercer_30ft_56k_GEO_barrier_lampNiches1
+    3300006: LOMEX_BASE_10k_polys_LOMEX_detail_Mercer_30ft_56k_GEO_barrier_outside
+    3300008: LOMEX_BASE_10k_polys_LOMEX_detail_Mercer_30ft_56k_GEO_beams_long
+    3300010: LOMEX_BASE_10k_polys_LOMEX_detail_Mercer_30ft_56k_GEO_ColumnBase_all_columnBaseInside3
+    3300012: LOMEX_BASE_10k_polys_LOMEX_detail_Mercer_30ft_56k_GEO_ColumnBase_all_columnBaseOutside6
+    3300014: LOMEX_BASE_10k_polys_LOMEX_detail_Mercer_30ft_56k_GEO_columnBaseOutside5_ColumnBase_all
+    3300016: LOMEX_BASE_10k_polys_LOMEX_detail_Mercer_30ft_56k_GEO_columnInside3_Columns_Center
+    3300018: LOMEX_BASE_10k_polys_LOMEX_detail_Mercer_30ft_56k_GEO_columnOutside6_Columns_Side
+    3300020: LOMEX_BASE_10k_polys_LOMEX_detail_Mercer_30ft_56k_GEO_Columns_Side_columnOutside5
+    3300022: LOMEX_BASE_10k_polys_LOMEX_detail_Mercer_30ft_56k_GEO_columnTops1
+    3300024: LOMEX_BASE_10k_polys_LOMEX_detail_Mercer_30ft_56k_GEO_crossBeams
+    3300026: LOMEX_BASE_10k_polys_LOMEX_detail_Mercer_30ft_56k_GEO_crossBeams_arches3_crossBeams_arches
+    3300028: LOMEX_BASE_10k_polys_LOMEX_detail_Mercer_30ft_56k_GEO_crossBeams_arches_crossBeams_arches12
+    3300030: LOMEX_BASE_10k_polys_LOMEX_detail_Mercer_30ft_56k_GEO_lamps
+    4300000: asphalt_LOMEX_BASE_10k_polys_LOMEX_detail_Mercer_30ft_56k_GEO
+    4300002: LOMEX_BASE_10k_polys_LOMEX_detail_Mercer_30ft_56k_GEO_archVerticals3
+    4300004: LOMEX_BASE_10k_polys_LOMEX_detail_Mercer_30ft_56k_GEO_barrier_lampNiches1
+    4300006: LOMEX_BASE_10k_polys_LOMEX_detail_Mercer_30ft_56k_GEO_barrier_outside
+    4300008: LOMEX_BASE_10k_polys_LOMEX_detail_Mercer_30ft_56k_GEO_beams_long
+    4300010: LOMEX_BASE_10k_polys_LOMEX_detail_Mercer_30ft_56k_GEO_ColumnBase_all_columnBaseInside3
+    4300012: LOMEX_BASE_10k_polys_LOMEX_detail_Mercer_30ft_56k_GEO_ColumnBase_all_columnBaseOutside6
+    4300014: LOMEX_BASE_10k_polys_LOMEX_detail_Mercer_30ft_56k_GEO_columnBaseOutside5_ColumnBase_all
+    4300016: LOMEX_BASE_10k_polys_LOMEX_detail_Mercer_30ft_56k_GEO_columnInside3_Columns_Center
+    4300018: LOMEX_BASE_10k_polys_LOMEX_detail_Mercer_30ft_56k_GEO_columnOutside6_Columns_Side
+    4300020: LOMEX_BASE_10k_polys_LOMEX_detail_Mercer_30ft_56k_GEO_Columns_Side_columnOutside5
+    4300022: LOMEX_BASE_10k_polys_LOMEX_detail_Mercer_30ft_56k_GEO_columnTops1
+    4300024: LOMEX_BASE_10k_polys_LOMEX_detail_Mercer_30ft_56k_GEO_crossBeams
+    4300026: LOMEX_BASE_10k_polys_LOMEX_detail_Mercer_30ft_56k_GEO_crossBeams_arches3_crossBeams_arches
+    4300028: LOMEX_BASE_10k_polys_LOMEX_detail_Mercer_30ft_56k_GEO_crossBeams_arches_crossBeams_arches12
+    4300030: LOMEX_BASE_10k_polys_LOMEX_detail_Mercer_30ft_56k_GEO_lamps
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
