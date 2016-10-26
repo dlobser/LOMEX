@@ -33,7 +33,8 @@ public class TangoFloorFindingUIController_L : MonoBehaviour
     /// <summary>
     /// The marker for the found floor.
     /// </summary>
-    public GameObject m_marker;
+    public GameObject[] m_marker;
+	int whichMarker = 0;
 
     /// <summary>
     /// The scene's Tango application.
@@ -61,6 +62,8 @@ public class TangoFloorFindingUIController_L : MonoBehaviour
 	//
 	public List<GameObject> markerGroup = new List<GameObject>();
 	bool markerDrop = false;
+
+	public GameObject[] showOnFinishPlacing;
 
 
     /// <summary>
@@ -128,7 +131,7 @@ public class TangoFloorFindingUIController_L : MonoBehaviour
 
 	void DropMarker()
 	{
-		GameObject markerrr = Instantiate(m_marker, new Vector3(), Quaternion.identity) as GameObject;
+		GameObject markerrr = m_marker [whichMarker];// Instantiate(m_marker[whichMarker], new Vector3(), Quaternion.identity) as GameObject;
 
 		Vector3 target;
 		RaycastHit hitInfo;
@@ -149,6 +152,19 @@ public class TangoFloorFindingUIController_L : MonoBehaviour
 		markerrr.transform.position = target;
 		markerGroup.Add (markerrr);
 		markerDrop = true;
+
+		Debug.Log (whichMarker);
+		whichMarker++;
+		if (whichMarker > m_marker.Length - 1) {
+			this.gameObject.SetActive (false);
+			ShowOnFinish ();
+		}
+	}
+
+	void ShowOnFinish(){
+		for (int i = 0; i < showOnFinishPlacing.Length; i++) {
+			showOnFinishPlacing [i].SetActive (true);
+		}
 	}
     
     /// <summary>
@@ -175,7 +191,7 @@ public class TangoFloorFindingUIController_L : MonoBehaviour
             }
 		} else if (markerDrop)
 		{
-			if (GUI.Button(new Rect(Screen.width - 220, 20, 200, 80), "<size=30>Drop Another Marker</size>"))
+			if (GUI.Button(new Rect(Screen.width - 220, 20, 200, 80), "<size=30>Drop Marker</size>"))
 			{
 				DropMarker();
 			}
