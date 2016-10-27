@@ -71,7 +71,7 @@
 				float sDist = abs(sin(_Time.z*-_Speed-mDist*10.))*.1;
 				// apply fog
 				UNITY_APPLY_FOG(i.fogCoord, col);
-				return max(0.0,min(1.0,((.5-dist)*5.0)))*(f4((2.0+sin(_Speed*-_Time.z+dist*90.))*max(0.,(1.-dist))))*_Color;
+				return max(0.0,min(1.0,((.5-dist)*15.0)))*f4(sin(_Speed*-_Time.z+dist*90.)-.95)*_Color*4;
 			}
 			ENDCG
 		}
