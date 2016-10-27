@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 2dafdbb12f8a8446b8c0d203d40afef4
+timeCreated: 1471384984
+licenseType: Free
+ShaderImporter:
+  defaultTextures:
+  - _OcclusionMap: {instanceID: 0}
+  - _PaperTex: {instanceID: 0}
+  - _PaperDataTex: {fileID: 2800000, guid: 5780e51af19c34cc8830c2c68af2c693, type: 3}
+  - _ColorTex: {fileID: 2800000, guid: 5780e51af19c34cc8830c2c68af2c693, type: 3}
+  - _ShadowTex: {fileID: 2800000, guid: 5780e51af19c34cc8830c2c68af2c693, type: 3}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
