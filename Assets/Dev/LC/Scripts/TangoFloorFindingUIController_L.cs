@@ -76,6 +76,8 @@ public class TangoFloorFindingUIController_L : MonoBehaviour
 
 	public CopyPosition copyPosition; 
 
+	public GUISkin mySkin;
+
     /// <summary>
     /// Use this for initialization.
     /// </summary>
@@ -204,7 +206,8 @@ public class TangoFloorFindingUIController_L : MonoBehaviour
     /// </summary>
     public void OnGUI()
     {
-        GUI.color = Color.white;
+		GUI.skin = mySkin;
+//        GUI.color = Color.white;
 
 		if (!m_findingFloor && !showMarkerMenu)
         {
