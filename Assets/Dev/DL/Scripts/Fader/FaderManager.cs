@@ -32,7 +32,7 @@ public class FaderManager : MonoBehaviour {
 				faders [i].Fade ();
 			}
 		}
-		Debug.Log (level);
+//		Debug.Log (level);
 		prevLevel = level;
 	}
 }
