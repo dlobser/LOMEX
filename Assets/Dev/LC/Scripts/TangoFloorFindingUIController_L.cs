@@ -245,7 +245,7 @@ public class TangoFloorFindingUIController_L : MonoBehaviour
 			}
 
 			if (markerCount > 0) {
-				hSliderValue = GUI.HorizontalSlider(new Rect(25, 25, 100, 30), hSliderValue, 0.0F, 360.0F);
+				hSliderValue = GUI.HorizontalSlider(new Rect(25, 150, Screen.width/2, Screen.height/6), hSliderValue, 0.0F, 360.0F);
 				Vector3 newAngle = new Vector3 (0, hSliderValue, 0);
 
 				markerDictionary[theLatestButton].transform.eulerAngles = newAngle;
