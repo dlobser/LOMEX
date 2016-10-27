@@ -3107,11 +3107,1277 @@ ModelImporter:
     animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 1001
+      lastFrame: 1257
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: P1_MAP
+        weight: 1
+      - path: P1_MAP/poly_bronx_280
+        weight: 1
+      - path: P1_MAP/poly_brooklyn_557
+        weight: 1
+      - path: P1_MAP/poly_island_JamaicaBay_75
+        weight: 1
+      - path: P1_MAP/poly_island_Randalls_64
+        weight: 1
+      - path: P1_MAP/poly_island_Rikers_56
+        weight: 1
+      - path: P1_MAP/poly_island_Roosevelt_34
+        weight: 1
+      - path: P1_MAP/poly_islandGovernors_61
+        weight: 1
+      - path: P1_MAP/poly_manhattan_100
+        weight: 1
+      - path: P1_MAP/poly_queens_370
+        weight: 1
+      - path: P1_MAP/poly_statenisland_180
+        weight: 1
+      - path: P1_MAP/rockaway
+        weight: 1
+      - path: P2_PARKS
+        weight: 1
+      - path: P3_PLAYGROUNDS
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground1
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground2
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground3
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground4
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground5
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground6
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground7
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground8
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground9
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground10
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground11
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground12
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground13
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground14
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground15
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground16
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground17
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground18
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground19
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground20
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground21
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground22
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground23
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground24
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground25
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground26
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground27
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground28
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground29
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground30
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground31
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground32
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground33
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground34
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground35
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground36
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground37
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground38
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground39
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground40
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground41
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground42
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground43
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground44
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground45
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground46
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground47
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground48
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground49
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground50
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground51
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground52
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground53
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground54
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground55
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground56
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground57
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground58
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground59
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground60
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground61
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground62
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground63
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground64
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground65
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground66
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground67
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground68
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground69
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground70
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground71
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground72
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground73
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground74
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground75
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground76
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground77
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground78
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground79
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground80
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground81
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground82
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground83
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground84
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground85
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground86
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground87
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground88
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground89
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground90
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground91
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground92
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground93
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground94
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground95
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground96
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground97
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground98
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground99
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground100
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground101
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground102
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground103
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground104
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground105
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground106
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground107
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground108
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground109
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground110
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground111
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground112
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground113
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground114
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground115
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground116
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground117
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground118
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground119
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground120
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground121
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground122
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground123
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground124
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground125
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground126
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground127
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground128
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground129
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground130
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground131
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground132
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground133
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground134
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground135
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground136
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground137
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground138
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground139
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground140
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground141
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground142
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground143
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground144
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground145
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground146
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground147
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground148
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground149
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground150
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground151
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground152
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground153
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground154
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground155
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground156
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground157
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground158
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground159
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground160
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground161
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground162
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground163
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground164
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground165
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground166
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground167
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground168
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground169
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground170
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground171
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground172
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground173
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground174
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground175
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground176
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground177
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground178
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground179
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground180
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground181
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground182
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground183
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground184
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground185
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground186
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground187
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground188
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground189
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground190
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground191
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground192
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground193
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground194
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground195
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground196
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground197
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground198
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground199
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground200
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground201
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground202
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground203
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground204
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground205
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground206
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground207
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground208
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground209
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground210
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground211
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground212
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground213
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground214
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground215
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground216
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground217
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground218
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground219
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground220
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground221
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground222
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground223
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground224
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground225
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground226
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground227
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground228
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground229
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground230
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground231
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground232
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground233
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground234
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground235
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground236
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground237
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground238
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground239
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground240
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground241
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground242
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground243
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground244
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground245
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground246
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground247
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground248
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground249
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground250
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground251
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground252
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground253
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground254
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground255
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground256
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground257
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground258
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground259
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground260
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground261
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground262
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground263
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground264
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground265
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground266
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground267
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground268
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground269
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground270
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground271
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground272
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground273
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground274
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground275
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground276
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground277
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground278
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground279
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground280
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground281
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground282
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground283
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground284
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground285
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground286
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground287
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground288
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground289
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground290
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground291
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground292
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground293
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground294
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground295
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground296
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground297
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground298
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground299
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground300
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground301
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground302
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground303
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground304
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground305
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground306
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground307
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground308
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground309
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground310
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground311
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground312
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground313
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground314
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground315
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground316
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground317
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground318
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground319
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground320
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground321
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground322
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground323
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground324
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground325
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground326
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground327
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground328
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground329
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground330
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground331
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground332
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground333
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground334
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground335
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground336
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground337
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground338
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground339
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground340
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground341
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground342
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground343
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground344
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground345
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground346
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground347
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground348
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground349
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground350
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground351
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground352
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground353
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground354
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground355
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground356
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground357
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground358
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground359
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground360
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground361
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground362
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground363
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground364
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground365
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground366
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground367
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground368
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground369
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground370
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground371
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground372
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground373
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground374
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground375
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground376
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground377
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground378
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground379
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground380
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground381
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground382
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground383
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground384
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground385
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground386
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground387
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground388
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground389
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground390
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground391
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground392
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground393
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground394
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground395
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground396
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground397
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground398
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground399
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground400
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground401
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground402
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground403
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground404
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground405
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground406
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground407
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground408
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground409
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground410
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground411
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground412
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground413
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground414
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground415
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground416
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground417
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground418
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground419
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground420
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground421
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground422
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground423
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground424
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground425
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground426
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground427
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground428
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground429
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground430
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground431
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground432
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground433
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground434
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground435
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground436
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground437
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground438
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground439
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground440
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground441
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground442
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground443
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground444
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground445
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground446
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground447
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground448
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground449
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground450
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground451
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground452
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground453
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground454
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground455
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground456
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground457
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground458
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground459
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground460
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground461
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground462
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground463
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground464
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground465
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground466
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground467
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground468
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground469
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground470
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground471
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground472
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground473
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground474
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground475
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground476
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground477
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground478
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground479
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground480
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground481
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground482
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground483
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground484
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground485
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground486
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground487
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground488
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground489
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground490
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground491
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground492
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground493
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground494
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground495
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground496
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground497
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground498
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground499
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground500
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground501
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground502
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground503
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground504
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground505
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground506
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground507
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground508
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground509
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground510
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground511
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground512
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground513
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground514
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground515
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground516
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground517
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground518
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground519
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground520
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground521
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground522
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground523
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground524
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground525
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground526
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground527
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground528
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground529
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground530
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground531
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground532
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground533
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground534
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground535
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground536
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground537
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground538
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground539
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground540
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground541
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground542
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground543
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground544
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground545
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground546
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground547
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground548
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground549
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground550
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground551
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground552
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground553
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground554
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground555
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground556
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground557
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground558
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground559
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground560
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground561
+        weight: 1
+      - path: P3_PLAYGROUNDS/playground562
+        weight: 1
+      - path: P4_BRIDGES
+        weight: 1
+      - path: P4_BRIDGES/brdige_marine
+        weight: 1
+      - path: P4_BRIDGES/brdige_verrazanno
+        weight: 1
+      - path: P4_BRIDGES/bridge_HenryHudson
+        weight: 1
+      - path: P4_BRIDGES/bridge_throgsneck
+        weight: 1
+      - path: P4_BRIDGES/bridge_Triboro
+        weight: 1
+      - path: P4_BRIDGES/bridge_whitestone
+        weight: 1
+      - path: P4_BRIDGES/tunnel_BrooklynBattery
+        weight: 1
+      - path: P5_HIGHWAYS
+        weight: 1
+      - path: P5_HIGHWAYS/highway01
+        weight: 1
+      - path: P5_HIGHWAYS/highway02
+        weight: 1
+      - path: P5_HIGHWAYS/highway03
+        weight: 1
+      - path: P5_HIGHWAYS/highway04
+        weight: 1
+      - path: P5_HIGHWAYS/highway05
+        weight: 1
+      - path: P5_HIGHWAYS/highway06
+        weight: 1
+      - path: P5_HIGHWAYS/highway07
+        weight: 1
+      - path: P5_HIGHWAYS/highway08
+        weight: 1
+      - path: P5_HIGHWAYS/highway09
+        weight: 1
+      - path: P5_HIGHWAYS/highway10
+        weight: 1
+      - path: P5_HIGHWAYS/highway11
+        weight: 1
+      - path: P5_HIGHWAYS/highway12
+        weight: 1
+      - path: P5_HIGHWAYS/highway13
+        weight: 1
+      - path: P5_HIGHWAYS/highway14
+        weight: 1
+      - path: P5_HIGHWAYS/highway15
+        weight: 1
+      - path: P5_HIGHWAYS/highway16
+        weight: 1
+      - path: P5_HIGHWAYS/highway17
+        weight: 1
+      - path: P5_HIGHWAYS/highway18
+        weight: 1
+      - path: P5_HIGHWAYS/highway19
+        weight: 1
+      - path: P5_HIGHWAYS/highway20
+        weight: 1
+      - path: P5_HIGHWAYS/highway21
+        weight: 1
+      - path: P5_HIGHWAYS/highway22
+        weight: 1
+      - path: P5_HIGHWAYS/highway23
+        weight: 1
+      - path: P5_HIGHWAYS/highway24
+        weight: 1
+      - path: P5_HIGHWAYS/highway25
+        weight: 1
+      - path: P5_HIGHWAYS/highway26
+        weight: 1
+      - path: P5_HIGHWAYS/highway27
+        weight: 1
+      - path: P5_HIGHWAYS/highway28
+        weight: 1
+      - path: P5_HIGHWAYS/highway29
+        weight: 1
+      - path: P5_HIGHWAYS/highway30
+        weight: 1
+      - path: P5_HIGHWAYS/highway31
+        weight: 1
+      - path: P5_HIGHWAYS/highway32
+        weight: 1
+      - path: P5_HIGHWAYS/highway33
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 1
+    globalScale: 100
     meshCompression: 0
     addColliders: 0
     importBlendShapes: 1
