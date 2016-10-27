@@ -1,0 +1,148 @@
+fileFormatVersion: 2
+guid: fec929bf9fe8f4c56a9649dee4e9d786
+timeCreated: 1477601110
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: pCylinder1_protestor3
+    100002: protestor3_pCube3
+    100004: protestor3_pCube4
+    100006: protestor3_pCube5
+    100008: protestor3_pCube6
+    100010: protestor3_pCube7
+    100012: protestor3_pCylinder10
+    100014: protestor3_pCylinder2
+    100016: protestor3_pCylinder3
+    100018: protestor3_pCylinder4
+    100020: protestor3_pCylinder5
+    100022: protestor3_pCylinder6
+    100024: protestor3_pCylinder7
+    100026: protestor3_pCylinder8
+    100028: protestor3_pCylinder9
+    100030: //RootNode
+    400000: pCylinder1_protestor3
+    400002: protestor3_pCube3
+    400004: protestor3_pCube4
+    400006: protestor3_pCube5
+    400008: protestor3_pCube6
+    400010: protestor3_pCube7
+    400012: protestor3_pCylinder10
+    400014: protestor3_pCylinder2
+    400016: protestor3_pCylinder3
+    400018: protestor3_pCylinder4
+    400020: protestor3_pCylinder5
+    400022: protestor3_pCylinder6
+    400024: protestor3_pCylinder7
+    400026: protestor3_pCylinder8
+    400028: protestor3_pCylinder9
+    400030: //RootNode
+    2300000: pCylinder1_protestor3
+    2300002: protestor3_pCube3
+    2300004: protestor3_pCube4
+    2300006: protestor3_pCube5
+    2300008: protestor3_pCube6
+    2300010: protestor3_pCube7
+    2300012: protestor3_pCylinder10
+    2300014: protestor3_pCylinder2
+    2300016: protestor3_pCylinder3
+    2300018: protestor3_pCylinder4
+    2300020: protestor3_pCylinder5
+    2300022: protestor3_pCylinder6
+    2300024: protestor3_pCylinder7
+    2300026: protestor3_pCylinder8
+    2300028: protestor3_pCylinder9
+    3300000: pCylinder1_protestor3
+    3300002: protestor3_pCube3
+    3300004: protestor3_pCube4
+    3300006: protestor3_pCube5
+    3300008: protestor3_pCube6
+    3300010: protestor3_pCube7
+    3300012: protestor3_pCylinder10
+    3300014: protestor3_pCylinder2
+    3300016: protestor3_pCylinder3
+    3300018: protestor3_pCylinder4
+    3300020: protestor3_pCylinder5
+    3300022: protestor3_pCylinder6
+    3300024: protestor3_pCylinder7
+    3300026: protestor3_pCylinder8
+    3300028: protestor3_pCylinder9
+    4300000: pCylinder1_protestor3
+    4300002: protestor3_pCube3
+    4300004: protestor3_pCube4
+    4300006: protestor3_pCube5
+    4300008: protestor3_pCube6
+    4300010: protestor3_pCube7
+    4300012: protestor3_pCylinder10
+    4300014: protestor3_pCylinder2
+    4300016: protestor3_pCylinder3
+    4300018: protestor3_pCylinder4
+    4300020: protestor3_pCylinder5
+    4300022: protestor3_pCylinder6
+    4300024: protestor3_pCylinder7
+    4300026: protestor3_pCylinder8
+    4300028: protestor3_pCylinder9
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

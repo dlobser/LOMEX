@@ -1,0 +1,148 @@
+fileFormatVersion: 2
+guid: 311a12e2c2a6f4cb1b712a111cac0be1
+timeCreated: 1477601107
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: pCylinder1_protestor5
+    100002: protestor5_group6_pCube6
+    100004: protestor5_group6_pCylinder7
+    100006: protestor5_group7_pCube6
+    100008: protestor5_group7_pCylinder7
+    100010: protestor5_pCube3
+    100012: protestor5_pCube4
+    100014: protestor5_pCube5
+    100016: protestor5_pCylinder10
+    100018: protestor5_pCylinder2
+    100020: protestor5_pCylinder3
+    100022: protestor5_pCylinder4
+    100024: protestor5_pCylinder5
+    100026: protestor5_pCylinder6_group6
+    100028: protestor5_pCylinder6_group7
+    100030: //RootNode
+    400000: pCylinder1_protestor5
+    400002: protestor5_group6_pCube6
+    400004: protestor5_group6_pCylinder7
+    400006: protestor5_group7_pCube6
+    400008: protestor5_group7_pCylinder7
+    400010: protestor5_pCube3
+    400012: protestor5_pCube4
+    400014: protestor5_pCube5
+    400016: protestor5_pCylinder10
+    400018: protestor5_pCylinder2
+    400020: protestor5_pCylinder3
+    400022: protestor5_pCylinder4
+    400024: protestor5_pCylinder5
+    400026: protestor5_pCylinder6_group6
+    400028: protestor5_pCylinder6_group7
+    400030: //RootNode
+    2300000: pCylinder1_protestor5
+    2300002: protestor5_group6_pCube6
+    2300004: protestor5_group6_pCylinder7
+    2300006: protestor5_group7_pCube6
+    2300008: protestor5_group7_pCylinder7
+    2300010: protestor5_pCube3
+    2300012: protestor5_pCube4
+    2300014: protestor5_pCube5
+    2300016: protestor5_pCylinder10
+    2300018: protestor5_pCylinder2
+    2300020: protestor5_pCylinder3
+    2300022: protestor5_pCylinder4
+    2300024: protestor5_pCylinder5
+    2300026: protestor5_pCylinder6_group6
+    2300028: protestor5_pCylinder6_group7
+    3300000: pCylinder1_protestor5
+    3300002: protestor5_group6_pCube6
+    3300004: protestor5_group6_pCylinder7
+    3300006: protestor5_group7_pCube6
+    3300008: protestor5_group7_pCylinder7
+    3300010: protestor5_pCube3
+    3300012: protestor5_pCube4
+    3300014: protestor5_pCube5
+    3300016: protestor5_pCylinder10
+    3300018: protestor5_pCylinder2
+    3300020: protestor5_pCylinder3
+    3300022: protestor5_pCylinder4
+    3300024: protestor5_pCylinder5
+    3300026: protestor5_pCylinder6_group6
+    3300028: protestor5_pCylinder6_group7
+    4300000: pCylinder1_protestor5
+    4300002: protestor5_group6_pCube6
+    4300004: protestor5_group6_pCylinder7
+    4300006: protestor5_group7_pCube6
+    4300008: protestor5_group7_pCylinder7
+    4300010: protestor5_pCube3
+    4300012: protestor5_pCube4
+    4300014: protestor5_pCube5
+    4300016: protestor5_pCylinder10
+    4300018: protestor5_pCylinder2
+    4300020: protestor5_pCylinder3
+    4300022: protestor5_pCylinder4
+    4300024: protestor5_pCylinder5
+    4300026: protestor5_pCylinder6_group6
+    4300028: protestor5_pCylinder6_group7
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

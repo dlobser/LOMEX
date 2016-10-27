@@ -8,10 +8,10 @@ public class levelUp : MonoBehaviour {
 	bool buildable = true;
 
 	void Awake(){
-		if (GameObject.Find (faderName)!= null)
-			fader = GameObject.Find (faderName).GetComponent<FaderManager> ();
-		else
-			buildable = false;
+//		if (GameObject.Find (faderName)!= null)
+//			fader = GameObject.Find (faderName).GetComponent<FaderManager> ();
+//		else
+//			buildable = false;
 	}
 
 	void OnTriggerEnter(Collider other) {

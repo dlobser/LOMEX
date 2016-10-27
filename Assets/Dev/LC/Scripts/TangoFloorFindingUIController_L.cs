@@ -70,11 +70,14 @@ public class TangoFloorFindingUIController_L : MonoBehaviour
 
 	public GameObject[] showOnFinishPlacing;
 
-	float buttonWidth = 200f;
+	float buttonWidth = 180f;
 	float hSliderValue = 0.0f;
 	int theLatestButton = 0;
+	int thePreviousButton = 0;
 
-	public CopyPosition copyPosition; 
+	public CopyPosition_L copyPosition; 
+
+	public GUISkin mySkin;
 
     /// <summary>
     /// Use this for initialization.
@@ -153,6 +156,14 @@ public class TangoFloorFindingUIController_L : MonoBehaviour
 
 		theLatestButton = whichMarker;
 
+		// hide the previous elements
+		if(theLatestButton != thePreviousButton){
+			copyPosition.ShowTarget (theLatestButton);
+			copyPosition.HideTarget (thePreviousButton);
+
+			thePreviousButton = theLatestButton;
+		}
+
 		if (markerCount == m_marker.Length) {
 //			this.gameObject.SetActive (false);
 //			ShowOnFinish ();
@@ -204,7 +215,8 @@ public class TangoFloorFindingUIController_L : MonoBehaviour
     /// </summary>
     public void OnGUI()
     {
-        GUI.color = Color.white;
+		GUI.skin = mySkin;
+//        GUI.color = Color.white;
 
 		if (!m_findingFloor && !showMarkerMenu)
         {
@@ -223,26 +235,31 @@ public class TangoFloorFindingUIController_L : MonoBehaviour
 		}
 		else if (showMarkerMenu)
 		{
-			if (GUI.Button(new Rect(Screen.width - buttonWidth*5, 20, buttonWidth, 80), "<size=30>Marker 1</size>"))
+			if (GUI.Button(new Rect(Screen.width - buttonWidth*6, 20, buttonWidth, 80), "<size=30>Marker 1</size>"))
 			{
 				PlaceMarker(0);
 			}
-			if (GUI.Button(new Rect(Screen.width - buttonWidth*4, 20, buttonWidth, 80), "<size=30>Marker 2</size>"))
+			if (GUI.Button(new Rect(Screen.width - buttonWidth*5, 20, buttonWidth, 80), "<size=30>Marker 2</size>"))
 			{
 				PlaceMarker(1);
 			}
-			if (GUI.Button(new Rect(Screen.width - buttonWidth*3, 20, buttonWidth, 80), "<size=30>Marker 3</size>"))
+			if (GUI.Button(new Rect(Screen.width - buttonWidth*4, 20, buttonWidth, 80), "<size=30>Marker 3</size>"))
 			{
 				PlaceMarker(2);
 			}
-			if (GUI.Button(new Rect(Screen.width - buttonWidth*2, 20, buttonWidth, 80), "<size=30>Marker 4</size>"))
+			if (GUI.Button(new Rect(Screen.width - buttonWidth*3, 20, buttonWidth, 80), "<size=30>Marker 4</size>"))
 			{
 				PlaceMarker(3);
 			}
-			if (GUI.Button(new Rect(Screen.width - buttonWidth, 20, buttonWidth, 80), "<size=30>Marker 5</size>"))
+			if (GUI.Button(new Rect(Screen.width - buttonWidth*2, 20, buttonWidth, 80), "<size=30>Marker 5</size>"))
 			{
 				PlaceMarker(4);
 			}
+			if (GUI.Button(new Rect(Screen.width - buttonWidth, 20, buttonWidth, 80), "<size=30>Marker 6</size>"))
+			{
+				PlaceMarker(5);
+			}
+
 
 			if (markerCount > 0) {
 				hSliderValue = GUI.HorizontalSlider(new Rect(25, 150, Screen.width/2, Screen.height/6), hSliderValue, 0.0F, 360.0F);
