@@ -1,0 +1,381 @@
+fileFormatVersion: 2
+guid: d32a56e3a7fef4cbaa75855064724529
+timeCreated: 1477581814
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Asphalt_MainRoad
+    100004: Asphalt_MainRoad 1
+    100006: bldg21
+    100008: bldg21 1
+    100010: bldg24
+    100012: bldg25
+    100014: bldg25 1
+    100016: brace
+    100018: brace1
+    100020: brace10
+    100022: brace11
+    100024: brace12
+    100026: brace13
+    100028: brace14
+    100030: brace15
+    100032: brace16
+    100034: brace17
+    100036: brace18
+    100038: brace19
+    100040: brace2
+    100042: brace20
+    100044: brace3
+    100046: brace4
+    100048: brace5
+    100050: brace6
+    100052: brace7
+    100054: brace8
+    100056: brace9
+    100058: City_post
+    100060: City_pre
+    100062: ColumnsConcrete_all
+    100064: CornerBldg_cutoff
+    100066: CornerBldg_original
+    100068: CornerBldg_original 1
+    100070: Ground
+    100072: group2
+    100074: group3
+    100076: group4
+    100078: Lomex1
+    100080: LOMEX_downtown:bldg01
+    100082: LOMEX_downtown:bldg15
+    100084: LOMEX_downtown:bldg16
+    100086: LOMEX_downtown:bldg20
+    100088: LOMEX_downtown:bldg21
+    100090: LOMEX_downtown:bldg24
+    100092: LOMEX_downtown:bldg25
+    100094: LOMEX_downtown:polySurface11005
+    100096: LOMEX_downtown:polySurface154
+    100098: LOMEX_downtown:polySurface1892
+    100100: LOMEX_downtown:polySurface21595
+    100102: LOMEX_downtown:polySurface523
+    100104: LOMEX_downtown:polySurface6950
+    100106: LOMEX_downtown:polySurface8368
+    100108: LOMEX_downtown:polySurface8625
+    100110: outskirts
+    100112: polySurface2126
+    100114: polySurface21595
+    100116: polySurface21595 1
+    100118: polySurface4023
+    100120: polySurface5119
+    100122: polySurface5324
+    100124: polySurface5324 1
+    100126: polySurface6750
+    100128: polySurface9304
+    100130: UnderSide_Concrete
+    400000: //RootNode
+    400002: Asphalt_MainRoad
+    400004: Asphalt_MainRoad 1
+    400006: bldg21
+    400008: bldg21 1
+    400010: bldg24
+    400012: bldg25
+    400014: bldg25 1
+    400016: brace
+    400018: brace1
+    400020: brace10
+    400022: brace11
+    400024: brace12
+    400026: brace13
+    400028: brace14
+    400030: brace15
+    400032: brace16
+    400034: brace17
+    400036: brace18
+    400038: brace19
+    400040: brace2
+    400042: brace20
+    400044: brace3
+    400046: brace4
+    400048: brace5
+    400050: brace6
+    400052: brace7
+    400054: brace8
+    400056: brace9
+    400058: City_post
+    400060: City_pre
+    400062: ColumnsConcrete_all
+    400064: CornerBldg_cutoff
+    400066: CornerBldg_original
+    400068: CornerBldg_original 1
+    400070: Ground
+    400072: group2
+    400074: group3
+    400076: group4
+    400078: Lomex1
+    400080: LOMEX_downtown:bldg01
+    400082: LOMEX_downtown:bldg15
+    400084: LOMEX_downtown:bldg16
+    400086: LOMEX_downtown:bldg20
+    400088: LOMEX_downtown:bldg21
+    400090: LOMEX_downtown:bldg24
+    400092: LOMEX_downtown:bldg25
+    400094: LOMEX_downtown:polySurface11005
+    400096: LOMEX_downtown:polySurface154
+    400098: LOMEX_downtown:polySurface1892
+    400100: LOMEX_downtown:polySurface21595
+    400102: LOMEX_downtown:polySurface523
+    400104: LOMEX_downtown:polySurface6950
+    400106: LOMEX_downtown:polySurface8368
+    400108: LOMEX_downtown:polySurface8625
+    400110: outskirts
+    400112: polySurface2126
+    400114: polySurface21595
+    400116: polySurface21595 1
+    400118: polySurface4023
+    400120: polySurface5119
+    400122: polySurface5324
+    400124: polySurface5324 1
+    400126: polySurface6750
+    400128: polySurface9304
+    400130: UnderSide_Concrete
+    2300000: //RootNode
+    2300002: Asphalt_MainRoad
+    2300004: Asphalt_MainRoad 1
+    2300006: bldg21
+    2300008: bldg21 1
+    2300010: bldg24
+    2300012: bldg25
+    2300014: bldg25 1
+    2300016: brace
+    2300018: brace1
+    2300020: brace10
+    2300022: brace11
+    2300024: brace12
+    2300026: brace13
+    2300028: brace14
+    2300030: brace15
+    2300032: brace16
+    2300034: brace17
+    2300036: brace18
+    2300038: brace19
+    2300040: brace2
+    2300042: brace20
+    2300044: brace3
+    2300046: brace4
+    2300048: brace5
+    2300050: brace6
+    2300052: brace7
+    2300054: brace8
+    2300056: brace9
+    2300058: ColumnsConcrete_all
+    2300060: CornerBldg_cutoff
+    2300062: CornerBldg_original
+    2300064: CornerBldg_original 1
+    2300066: Ground
+    2300068: LOMEX_downtown:bldg01
+    2300070: LOMEX_downtown:bldg15
+    2300072: LOMEX_downtown:bldg16
+    2300074: LOMEX_downtown:bldg20
+    2300076: LOMEX_downtown:bldg21
+    2300078: LOMEX_downtown:bldg24
+    2300080: LOMEX_downtown:bldg25
+    2300082: LOMEX_downtown:polySurface11005
+    2300084: LOMEX_downtown:polySurface154
+    2300086: LOMEX_downtown:polySurface1892
+    2300088: LOMEX_downtown:polySurface21595
+    2300090: LOMEX_downtown:polySurface523
+    2300092: LOMEX_downtown:polySurface6950
+    2300094: LOMEX_downtown:polySurface8368
+    2300096: LOMEX_downtown:polySurface8625
+    2300098: polySurface2126
+    2300100: polySurface21595
+    2300102: polySurface21595 1
+    2300104: polySurface4023
+    2300106: polySurface5119
+    2300108: polySurface5324
+    2300110: polySurface5324 1
+    2300112: polySurface6750
+    2300114: polySurface9304
+    2300116: UnderSide_Concrete
+    3300000: //RootNode
+    3300002: Asphalt_MainRoad
+    3300004: Asphalt_MainRoad 1
+    3300006: bldg21
+    3300008: bldg21 1
+    3300010: bldg24
+    3300012: bldg25
+    3300014: bldg25 1
+    3300016: brace
+    3300018: brace1
+    3300020: brace10
+    3300022: brace11
+    3300024: brace12
+    3300026: brace13
+    3300028: brace14
+    3300030: brace15
+    3300032: brace16
+    3300034: brace17
+    3300036: brace18
+    3300038: brace19
+    3300040: brace2
+    3300042: brace20
+    3300044: brace3
+    3300046: brace4
+    3300048: brace5
+    3300050: brace6
+    3300052: brace7
+    3300054: brace8
+    3300056: brace9
+    3300058: ColumnsConcrete_all
+    3300060: CornerBldg_cutoff
+    3300062: CornerBldg_original
+    3300064: CornerBldg_original 1
+    3300066: Ground
+    3300068: LOMEX_downtown:bldg01
+    3300070: LOMEX_downtown:bldg15
+    3300072: LOMEX_downtown:bldg16
+    3300074: LOMEX_downtown:bldg20
+    3300076: LOMEX_downtown:bldg21
+    3300078: LOMEX_downtown:bldg24
+    3300080: LOMEX_downtown:bldg25
+    3300082: LOMEX_downtown:polySurface11005
+    3300084: LOMEX_downtown:polySurface154
+    3300086: LOMEX_downtown:polySurface1892
+    3300088: LOMEX_downtown:polySurface21595
+    3300090: LOMEX_downtown:polySurface523
+    3300092: LOMEX_downtown:polySurface6950
+    3300094: LOMEX_downtown:polySurface8368
+    3300096: LOMEX_downtown:polySurface8625
+    3300098: polySurface2126
+    3300100: polySurface21595
+    3300102: polySurface21595 1
+    3300104: polySurface4023
+    3300106: polySurface5119
+    3300108: polySurface5324
+    3300110: polySurface5324 1
+    3300112: polySurface6750
+    3300114: polySurface9304
+    3300116: UnderSide_Concrete
+    4300000: center
+    4300002: CornerBldg_original
+    4300004: polySurface4023
+    4300006: polySurface5119
+    4300008: polySurface6750
+    4300010: polySurface21595
+    4300012: polySurface2126
+    4300014: polySurface9304
+    4300016: polySurface5324
+    4300018: bldg21
+    4300020: bldg25
+    4300022: LOMEX_downtown:polySurface1892
+    4300024: brace
+    4300026: brace1
+    4300028: brace2
+    4300030: brace3
+    4300032: brace4
+    4300034: brace5
+    4300036: brace6
+    4300038: brace7
+    4300040: brace8
+    4300042: brace9
+    4300044: brace10
+    4300046: brace11
+    4300048: brace12
+    4300050: brace13
+    4300052: brace14
+    4300054: brace15
+    4300056: brace16
+    4300058: brace17
+    4300060: brace18
+    4300062: brace19
+    4300064: brace20
+    4300066: Asphalt_MainRoad
+    4300068: Asphalt_MainRoad
+    4300070: Ground
+    4300072: ColumnsConcrete_all
+    4300074: UnderSide_Concrete
+    4300076: CornerBldg_original
+    4300078: polySurface21595
+    4300080: bldg24
+    4300082: polySurface5324
+    4300084: bldg21
+    4300086: bldg25
+    4300088: CornerBldg_cutoff
+    4300090: LOMEX_downtown:bldg01
+    4300092: LOMEX_downtown:bldg15
+    4300094: LOMEX_downtown:bldg16
+    4300096: LOMEX_downtown:bldg20
+    4300098: LOMEX_downtown:bldg21
+    4300100: LOMEX_downtown:bldg24
+    4300102: LOMEX_downtown:bldg25
+    4300104: LOMEX_downtown:polySurface154
+    4300106: LOMEX_downtown:polySurface523
+    4300108: LOMEX_downtown:polySurface21595
+    4300110: LOMEX_downtown:polySurface8625
+    4300112: LOMEX_downtown:polySurface8368
+    4300114: LOMEX_downtown:polySurface6950
+    4300116: LOMEX_downtown:polySurface11005
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 100
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
