@@ -155,7 +155,7 @@ public class TangoFloorFindingUIController_L : MonoBehaviour
 
 		Debug.Log (whichMarker);
 		whichMarker++;
-		if (whichMarker > m_marker.Length - 1) {
+		if (whichMarker == m_marker.Length) {
 			this.gameObject.SetActive (false);
 			ShowOnFinish ();
 		}
