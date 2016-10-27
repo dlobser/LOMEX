@@ -14,17 +14,33 @@ public class CopyPosition_L : MonoBehaviour {
 	}
 
 	public void UpdateTargetTransform(int targetIndex, int whichToUpdate){
+
 		if (whichToUpdate == 0)
 		{
-			toBePlaced[ targetIndex % toBePlacedCount ].transform.position = target [targetIndex].transform.position;
+			toBePlaced[ targetIndex ].transform.position = target [targetIndex].transform.position;
+
+			if (targetIndex == 2 || targetIndex == 4) {
+				toBePlaced [targetIndex].transform.position = toBePlaced [targetIndex-1].transform.position;
+			}
 		} else if (whichToUpdate == 1)
 		{
-			toBePlaced[ targetIndex % toBePlacedCount ].transform.rotation = target [targetIndex].transform.rotation;
+			toBePlaced[ targetIndex ].transform.rotation = target [targetIndex].transform.rotation;
+
+			if (targetIndex == 2 || targetIndex == 4) {
+				toBePlaced [targetIndex].transform.rotation = toBePlaced [targetIndex-1].transform.rotation;
+			}
 		} else
 		{
-			toBePlaced[ targetIndex % toBePlacedCount ].transform.position = target [targetIndex].transform.position;
-			toBePlaced[ targetIndex % toBePlacedCount ].transform.rotation = target [targetIndex].transform.rotation;
+			toBePlaced[ targetIndex ].transform.position = target [targetIndex].transform.position;
+			toBePlaced[ targetIndex ].transform.rotation = target [targetIndex].transform.rotation;
+
+			if (targetIndex == 2 || targetIndex == 4) {
+				toBePlaced [targetIndex].transform.position = toBePlaced [targetIndex-1].transform.position;
+				toBePlaced [targetIndex].transform.rotation = toBePlaced [targetIndex-1].transform.rotation;
+			}
 		}
+
+
 	}
 
 	public void HideTarget(int targetIndex){
