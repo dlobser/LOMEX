@@ -63,6 +63,7 @@ public class TangoFloorFindingUIController_L : MonoBehaviour
 	//
 	List<GameObject> markerGroup = new List<GameObject>();
 	public Dictionary<int, GameObject> markerDictionary = new Dictionary<int, GameObject>();
+	public Dictionary<int, GameObject> sceneDictionary = new Dictionary<int, GameObject>();
 	bool[] markerDrop;
 	bool showMarkerMenu = false;
 	bool showConfirm = false;
@@ -72,10 +73,12 @@ public class TangoFloorFindingUIController_L : MonoBehaviour
 
 	float buttonWidth = 180f;
 	float hSliderValue = 0.0f;
+	float scaleSliderValue = 1f;
 	int theLatestButton = 0;
 	int thePreviousButton = 0;
 
 	public CopyPosition_L copyPosition; 
+	float latestScaleValue = 0f;
 
 	public GUISkin mySkin;
 
@@ -93,6 +96,10 @@ public class TangoFloorFindingUIController_L : MonoBehaviour
 		for (int i = 0; i < m_marker.Length; i++)
 		{
 			markerDrop [i] = false;
+		}
+
+		for (int i = 0; i < copyPosition.toBePlaced.Length; i++) {
+			sceneDictionary.Add (i, copyPosition.toBePlaced[i]);
 		}
     }
     
@@ -155,6 +162,17 @@ public class TangoFloorFindingUIController_L : MonoBehaviour
 		}
 
 		theLatestButton = whichMarker;
+
+		// update value for sliders
+		if ( (theLatestButton == 2 || theLatestButton == 4) && markerDrop [whichMarker-1] ) {
+			hSliderValue = markerDictionary[whichMarker-1].transform.eulerAngles.y;
+			scaleSliderValue = sceneDictionary [whichMarker-1].transform.localScale.x;
+		} else {
+			hSliderValue = markerDictionary[whichMarker].transform.eulerAngles.y;
+			scaleSliderValue = sceneDictionary [whichMarker].transform.localScale.x;
+		}
+		latestScaleValue = scaleSliderValue;
+
 
 		// hide the previous elements
 		if(theLatestButton != thePreviousButton){
@@ -262,10 +280,16 @@ public class TangoFloorFindingUIController_L : MonoBehaviour
 
 
 			if (markerCount > 0) {
-				hSliderValue = GUI.HorizontalSlider(new Rect(25, 150, Screen.width/2, Screen.height/6), hSliderValue, 0.0F, 360.0F);
-				Vector3 newAngle = new Vector3 (0, hSliderValue, 0);
+				if (theLatestButton != 2 && theLatestButton != 4) {
+					hSliderValue = GUI.HorizontalSlider(new Rect(25, 150, Screen.width/2, Screen.height/6), hSliderValue, 0.0F, 360.0F);
+					scaleSliderValue = GUI.HorizontalSlider(new Rect(25, 350, Screen.width/2, Screen.height/6), scaleSliderValue, 0F, latestScaleValue*2f);
+				}
 
+				Vector3 newAngle = new Vector3 (0, hSliderValue, 0);
 				markerDictionary[theLatestButton].transform.eulerAngles = newAngle;
+
+				Vector3 newScale = new Vector3 (scaleSliderValue, scaleSliderValue, scaleSliderValue);
+				sceneDictionary[theLatestButton].transform.localScale = newScale;
 
 				copyPosition.UpdateTargetTransform (theLatestButton, 2);
 			}
