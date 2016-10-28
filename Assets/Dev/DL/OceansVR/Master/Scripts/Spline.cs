@@ -20,8 +20,9 @@ public class Spline : ScriptableObject {
     {
         detail = _detail;
         _controlPointsList = cp;
-        if(_micro >0)
-        micro = _micro;
+//        if(_micro >0)
+//        micro = _micro;
+//		Debug.Log (micro);
         NewCP(micro);
     }
 
