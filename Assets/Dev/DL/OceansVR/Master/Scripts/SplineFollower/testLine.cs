@@ -26,6 +26,8 @@ public class testLine : MonoBehaviour {
 	private Spline spline;
 	private GameObject target;
 	private GameObject rTarget;
+
+	Vector3 prevPosition = Vector3.zero;
 	
 
     void Awake()
@@ -67,7 +69,6 @@ public class testLine : MonoBehaviour {
 		}
 		target = new GameObject ();
 		rTarget = new GameObject();
-
         
 	}
 	
@@ -75,6 +76,20 @@ public class testLine : MonoBehaviour {
 
 		count += speed * Time.deltaTime;
 		rCount -= speed * Time.deltaTime;
+		Debug.Log (!prevPosition.Equals(parent.GetChild (0).transform.position));
+		if (!prevPosition.Equals (parent.GetChild (0).transform.position)) {
+			spline = ScriptableObject.CreateInstance<Spline>();
+
+			controlPoints.Clear ();
+			for (int i = 0; i < parent.childCount; i++) {
+				//			print (i);
+				controlPoints.Add (parent.GetChild (i));
+			}
+			//		print (controlPoints.Count);
+
+			spline.init (controlPoints, detail, micro_changethis);
+		}
+		
 //		if(count>=1)
 //			count=0;
 
@@ -83,10 +98,10 @@ public class testLine : MonoBehaviour {
 
 				float offset = rands [i];//Mathf.PerlinNoise((float)i*.13f,(float)i*.33f);
 //				if (i % 2 == 0) {
-					tracers [i].transform.localPosition = 
+					tracers [i].transform.position = 
 					spline.getPointClosed (offset*((float)i / ((float)amount - 1)) + count);
 					target.transform.localPosition = spline.getPointClosed (offset*((float)i / ((float)amount - 1)) + count + .0001f);
-					tracers [i].transform.LookAt (target.transform.localPosition);
+					tracers [i].transform.LookAt (target.transform.position);
 //				Debug.Log (target.transform.localPosition);
 
 
@@ -104,9 +119,9 @@ public class testLine : MonoBehaviour {
 				print (offset);
 
 //				if (i % 2 == 0) {
-					tracers [i].transform.localPosition = spline.getLinearPoint (offset*((float)i / ((float)amount - 1)) + count);
+					tracers [i].transform.position = spline.getLinearPoint (offset*((float)i / ((float)amount - 1)) + count);
 					target.transform.localPosition = spline.getLinearPoint (offset*((float)i / ((float)amount - 1)) + count + .000001f);
-					tracers [i].transform.LookAt (target.transform.localPosition);
+					tracers [i].transform.LookAt (target.transform.position);
 					
 					
 //				} else {
@@ -117,6 +132,8 @@ public class testLine : MonoBehaviour {
 				
 			}
 		}
+
+		prevPosition = parent.GetChild (0).transform.position;
         
     }
     void OnDrawGizmos()

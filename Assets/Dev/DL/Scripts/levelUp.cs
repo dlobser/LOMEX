@@ -15,7 +15,7 @@ public class levelUp : MonoBehaviour {
 	}
 
 	void OnTriggerEnter(Collider other) {
-		if (buildable) {
+		if (GameObject.Find (faderName)!=null) {
 			if (fader == null)
 				fader = GameObject.Find (faderName).GetComponent<FaderManager> ();
 			fader.level++;

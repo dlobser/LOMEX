@@ -1,15 +1,14 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class FaderAnimationTrigger : MonoBehaviour {
+public class FaderAnimationTrigger : Fader {
 
-	// Use this for initialization
-	void Start () {
-	
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
+	public TriggerAnimation[] triggerAnimation;
+	int which = 0;
+
+	public override void Fade(){
+		float currentLevel = ((Mathf.Clamp (level, min, max)-min) / levels) * triggerAnimation.Length;
+		int which = (int)Mathf.Clamp (Mathf.Floor (currentLevel), 0, triggerAnimation.Length - 1);
+		triggerAnimation [which].Trigger ();
 	}
 }

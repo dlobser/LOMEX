@@ -3,11 +3,16 @@ using System.Collections;
 
 public class TriggerAnimation : MonoBehaviour {
 
-	public string triggerName;
-	public Animator anim;
+	public string[] triggerName;
+	public Animator[] anim;
 
 	public void Trigger(){
-		if(anim!=null)
-			anim.SetTrigger (triggerName);
+		if (anim != null) {
+			for (int i = 0; i < triggerName.Length; i++) {
+				if(anim[i]!=null)
+					anim[i].SetTrigger (triggerName[i]);
+			}
+
+		}
 	}
 }
