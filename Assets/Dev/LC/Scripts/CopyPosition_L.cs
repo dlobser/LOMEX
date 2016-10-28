@@ -19,22 +19,27 @@ public class CopyPosition_L : MonoBehaviour {
 		{
 			toBePlaced[ targetIndex ].transform.position = target [targetIndex].transform.position;
 
-			if (targetIndex == 2 || targetIndex == 4) {
+			if (targetIndex == 2 || targetIndex == 5 || targetIndex == 6)
+			{
 				toBePlaced [targetIndex].transform.position = toBePlaced [targetIndex-1].transform.position;
 			}
-		} else if (whichToUpdate == 1)
+		}
+		else if (whichToUpdate == 1)
 		{
 			toBePlaced[ targetIndex ].transform.rotation = target [targetIndex].transform.rotation;
 
-			if (targetIndex == 2 || targetIndex == 4) {
+			if (targetIndex == 2 || targetIndex == 5)
+			{
 				toBePlaced [targetIndex].transform.rotation = toBePlaced [targetIndex-1].transform.rotation;
 			}
-		} else
+		}
+		else
 		{
 			toBePlaced[ targetIndex ].transform.position = target [targetIndex].transform.position;
 			toBePlaced[ targetIndex ].transform.rotation = target [targetIndex].transform.rotation;
 
-			if (targetIndex == 2 || targetIndex == 4) {
+			if (targetIndex == 2 || targetIndex == 5)
+			{
 				toBePlaced [targetIndex].transform.position = toBePlaced [targetIndex-1].transform.position;
 				toBePlaced [targetIndex].transform.rotation = toBePlaced [targetIndex-1].transform.rotation;
 			}
