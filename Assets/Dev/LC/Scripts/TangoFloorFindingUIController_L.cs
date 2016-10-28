@@ -150,24 +150,28 @@ public class TangoFloorFindingUIController_L : MonoBehaviour
 			target = dir.normalized * (Camera.main.farClipPlane * 0.9f);
 			target.y = m_pointCloudFloor.transform.position.y;
 		}
+
 		markerrr.transform.position = target;
 
+		// if the marker is dropped the first time, collect into markerDictionary
 		if (!markerDrop [whichMarker]) {
 			markerDictionary.Add (whichMarker, markerrr);
 			markerCount++;
 			markerDrop [whichMarker] = true;
 			Debug.Log ("Place Marker " + whichMarker);
 		} else {
-			Debug.Log ("Replace Marker " + whichMarker);
+			Debug.Log ("Re-place Marker " + whichMarker);
 		}
 
 		theLatestButton = whichMarker;
 
 		// update value for sliders
-		if ( (theLatestButton == 2 || theLatestButton == 4) && markerDrop [whichMarker-1] ) {
-			hSliderValue = markerDictionary[whichMarker-1].transform.eulerAngles.y;
-			scaleSliderValue = sceneDictionary [whichMarker-1].transform.localScale.x;
-		} else {
+		if ((theLatestButton == 2 || theLatestButton == 5) && markerDrop [whichMarker - 1])
+		{
+			hSliderValue = markerDictionary [whichMarker - 1].transform.eulerAngles.y;
+			scaleSliderValue = sceneDictionary [whichMarker - 1].transform.localScale.x;
+		} else
+		{
 			hSliderValue = markerDictionary[whichMarker].transform.eulerAngles.y;
 			scaleSliderValue = sceneDictionary [whichMarker].transform.localScale.x;
 		}
@@ -182,44 +186,11 @@ public class TangoFloorFindingUIController_L : MonoBehaviour
 			thePreviousButton = theLatestButton;
 		}
 
+		// if all the markers have been dropped at least once, show confirm button
 		if (markerCount == m_marker.Length) {
-//			this.gameObject.SetActive (false);
-//			ShowOnFinish ();
-			// Show confirm option
 			showConfirm = true;
 		}
-	}
 
-	void DropMarker()
-	{
-		GameObject markerrr = m_marker [whichMarker];// Instantiate(m_marker[whichMarker], new Vector3(), Quaternion.identity) as GameObject;
-
-		Vector3 target;
-		RaycastHit hitInfo;
-		if (Physics.Raycast(Camera.main.ScreenPointToRay(new Vector3(Screen.width / 2.0f, Screen.height / 2.0f)), out hitInfo))
-		{
-			// Limit distance of the marker position from the camera to the camera's far clip plane. This makes sure that the marker
-			// is visible on screen when the floor is found.
-			Vector3 cameraBase = new Vector3(Camera.main.transform.position.x, hitInfo.point.y, Camera.main.transform.position.z);
-			target = cameraBase + Vector3.ClampMagnitude(hitInfo.point - cameraBase, Camera.main.farClipPlane * 0.9f);
-		}
-		else
-		{
-			// If no raycast hit, place marker in the camera's forward direction.
-			Vector3 dir = new Vector3(Camera.main.transform.forward.x, 0.0f, Camera.main.transform.forward.z);
-			target = dir.normalized * (Camera.main.farClipPlane * 0.9f);
-			target.y = m_pointCloudFloor.transform.position.y;
-		}
-		markerrr.transform.position = target;
-		markerGroup.Add (markerrr);
-//		markerDrop = true;
-
-		Debug.Log (whichMarker);
-		whichMarker++;
-		if (whichMarker == m_marker.Length) {
-			this.gameObject.SetActive (false);
-			ShowOnFinish ();
-		}
 	}
 
 	void ShowOnFinish(){
@@ -234,7 +205,6 @@ public class TangoFloorFindingUIController_L : MonoBehaviour
     public void OnGUI()
     {
 		GUI.skin = mySkin;
-//        GUI.color = Color.white;
 
 		if (!m_findingFloor && !showMarkerMenu)
         {
@@ -253,6 +223,7 @@ public class TangoFloorFindingUIController_L : MonoBehaviour
 		}
 		else if (showMarkerMenu)
 		{
+
 			if (GUI.Button(new Rect(Screen.width - buttonWidth*6, 20, buttonWidth, 80), "<size=30>Marker 1</size>"))
 			{
 				PlaceMarker(0);
@@ -276,11 +247,15 @@ public class TangoFloorFindingUIController_L : MonoBehaviour
 			if (GUI.Button(new Rect(Screen.width - buttonWidth, 20, buttonWidth, 80), "<size=30>Marker 6</size>"))
 			{
 				PlaceMarker(5);
-			}
+				copyPosition.UpdateTargetTransform (5, 0);
+				PlaceMarker(6);
+				copyPosition.UpdateTargetTransform (6, 0);
+				PlaceMarker(5);
+			}			
 
 
 			if (markerCount > 0) {
-				if (theLatestButton != 2 && theLatestButton != 4) {
+				if (theLatestButton != 2 && theLatestButton != 5 && theLatestButton != 6) {
 					hSliderValue = GUI.HorizontalSlider(new Rect(25, 150, Screen.width/2, Screen.height/6), hSliderValue, 0.0F, 360.0F);
 					scaleSliderValue = GUI.HorizontalSlider(new Rect(25, 350, Screen.width/2, Screen.height/6), scaleSliderValue, 0F, latestScaleValue*2f);
 				}
@@ -304,6 +279,7 @@ public class TangoFloorFindingUIController_L : MonoBehaviour
 					ShowOnFinish ();
 				}
 			}
+
 		}
         else
         {
